@@ -24,6 +24,8 @@
 body {
     background-color: #0f0f0f; /*whole main body background*/
     color: #aaaaaa; /* all text color for body,tables,etc.... but no for titles, just a main page banner title.*/
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 body.no-menu {
@@ -50,6 +52,18 @@ h1 a:hover, h1 a:active {
 
 /** Content structure */
 
+.container  {
+  max-width: 90% !important;  
+ 
+}
+
+
+.container .fixed
+{
+ width: 100% !important;
+}
+
+
 .contains-table table {
     border: 1px solid #ddd; /* it seems like it does nothing*/
 }
@@ -65,7 +79,11 @@ h1 a:hover, h1 a:active {
 table.sortable-theme-bootstrap {
     color: #dddddd !important; /* important color for text on some tables like OpenVPN tab*/
     background-color: #1b1b1b !important; /* inbetween important colors for some tables like OpenVPN tab*/
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;    
 }
+
+
 
 .table>tbody+tbody {
     border-top: 2px solid #000000; /* border color between some tables like on Rules Tab*/
